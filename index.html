@@ -1,71 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZRH Yapı Dekorasyon</title>
+    <title>ZRH Yapı Dekorasyon | Trabzon & Rize</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
             color: #333;
+            line-height: 1.6;
         }
         header {
             background-color: #1a2a3a;
             color: white;
-            padding: 40px 20px;
+            padding: 50px 20px;
             text-align: center;
+            border-bottom: 5px solid #38bdf8;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
+            padding: 25px;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        h1 { margin: 0; font-size: 2.2em; }
-        h2 { color: #1a2a3a; border-bottom: 2px solid #38bdf8; padding-bottom: 5px; margin-top: 30px; }
+        h1 { margin: 0; font-size: 2.2em; letter-spacing: 1px; }
+        h2 { color: #1a2a3a; border-left: 5px solid #38bdf8; padding-left: 10px; margin-top: 30px; }
         .hizmetler {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 12px;
-            margin-top: 20px;
+            margin-top: 15px;
         }
         .hizmet-kart {
-            background: #eef2f5;
+            background: #f8fafc;
             padding: 15px;
-            border-radius: 5px;
+            border-radius: 8px;
             font-weight: bold;
             text-align: center;
-            border-left: 4px solid #38bdf8;
+            border: 1px solid #e2e8f0;
         }
-        .btn-grup {
-            margin-top: 30px;
+        .bolge-kart {
+            background: #fff9db;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #fab005;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
         }
+        .destek-vurgu {
+            background: #e3faf2;
+            color: #099268;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .btn-grup { margin-top: 30px; }
         .iletisim-btn {
             display: block;
             width: 100%;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 18px;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.1em;
-            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            margin-bottom: 12px;
             font-weight: bold;
             box-sizing: border-box;
+            transition: 0.3s;
         }
-        .ara-btn { background-color: #007bff; }
-        .wp-btn { background-color: #25d366; }
+        .ara-btn { background-color: #007bff; box-shadow: 0 4px #0056b3; }
+        .wp-btn { background-color: #25d366; box-shadow: 0 4px #128c7e; }
+        .ara-btn:active, .wp-btn:active { transform: translateY(4px); box-shadow: none; }
         footer {
             text-align: center;
-            padding: 20px;
-            font-size: 0.8em;
-            color: #777;
+            padding: 30px;
+            font-size: 0.85em;
+            color: #666;
         }
     </style>
 </head>
@@ -73,11 +92,13 @@
 
 <header>
     <h1>ZRH YAPI DEKORASYON</h1>
-    <p>Modern Dokunuşlar, Güçlü Yapılar</p>
+    <p>Trabzon ve Rize'nin Güvenilir Çözüm Ortağı</p>
 </header>
 
 <div class="container">
-    <h2>Hizmetlerimiz</h2>
+    <div class="destek-vurgu">📢 7/24 Kesintisiz Hizmet & Acil Destek</div>
+
+    <h2>Neler Yapıyoruz?</h2>
     <div class="hizmetler">
         <div class="hizmet-kart">🏗️ Tadilat & Tamirat</div>
         <div class="hizmet-kart">🎨 Boya & Badana</div>
@@ -87,18 +108,26 @@
         <div class="hizmet-kart">🚰 Su Tesisatı</div>
     </div>
 
-    <h2>Hakkımızda</h2>
-    <p>ZRH Yapı Dekorasyon olarak; parkeden tesisata, boyadan seramiğe kadar tüm dekorasyon ihtiyaçlarınızda yanınızdayız. Kaliteyi ve güveni esas alarak yaşam alanlarınızı yeniliyoruz.</p>
+    <h2>Hizmet Bölgelerimiz</h2>
+    <div class="bolge-kart">
+        📍 Trabzon (Tüm İlçeler) <br>
+        📍 Rize (Tüm İlçeler)
+    </div>
+    <p style="text-align: center; font-size: 0.9em; color: #555;">Merkez ve çevre ilçelerin tamamına bir telefonla geliyoruz.</p>
 
     <div class="btn-grup">
-        <a href="tel:+905070250567" class="iletisim-btn ara-btn">Hemen Ara: 0507 025 05 67</a>
-        <a href="https://wa.me/905070250567" class="iletisim-btn wp-btn">WhatsApp'tan Yaz</a>
+        <a href="tel:+905070250567" class="iletisim-btn ara-btn">7/24 ARA: 0507 025 05 67</a>
+        <a href="https://wa.me/905070250567" class="iletisim-btn wp-btn">WhatsApp Hattı</a>
     </div>
 </div>
 
 <footer>
-    &copy; 2026 ZRH Yapı Dekorasyon - Dursun Ali
+    &copy; 2026 ZRH Yapı Dekorasyon - Dursun Ali <br>
+    Profesyonel Yapı ve Dekorasyon Çözümleri
 </footer>
 
 </body>
 </html>
+
+
+        
