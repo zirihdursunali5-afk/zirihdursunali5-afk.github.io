@@ -1,1 +1,0 @@
-# dursunali.github.io
